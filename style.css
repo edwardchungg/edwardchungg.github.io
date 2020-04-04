@@ -1,9 +1,10 @@
 * {
-	
 	padding: 0px;
 	box-sizing: border-box;
 }
-
+p{
+    padding-right: 50px;
+}
 a {
     text-decoration: none;
     }
@@ -145,7 +146,7 @@ ul{
 }
 ul .icons{
     
-    font-size: 40px;
+    font-size: 35px;
     margin: 0px;
     display: inline-block;
     padding: 5px;
@@ -160,7 +161,7 @@ ul .icons{
 }
 .contactForm-text{
     display: block;
-    width: 100%;
+    width: 70%;
     box-sizing: border-box;
     margin: 16px 0;
     padding: 20px 40px;
@@ -258,10 +259,10 @@ ul .icons{
 		margin-top: 5vh;
 		text-align: center;
 	}
-	.intro-text h1 {
+	h1 {
 		font-size: 30px;
 	}
-	.intro-text p {
+	p {
 		font-size: 18px;
 	}
 	.cta {
