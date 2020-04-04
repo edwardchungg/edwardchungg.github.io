@@ -1,5 +1,5 @@
 * {
-	margin: 10px;
+	
 	padding: 0px;
 	box-sizing: border-box;
 }
@@ -12,8 +12,9 @@ h1{
     color: #51516b;
     justify-content: space-around;
 	list-style: none;
-	font-size: 40px;
-	text-decoration: none;
+	font-size: 45px;
+    text-decoration: none;
+    margin: 0px;
 }
 .name{
     color: #51516b;
@@ -27,8 +28,9 @@ h1{
 }
 .firstBlock{
     text-align:center;
-    padding-top: 10px;
+    padding-top: 2px;
     text-decoration: none;
+    margin: 0px;
 }
 
 html, body {
@@ -114,28 +116,41 @@ p {
 	font-size: 18px;;
     color: #80809e;
 }
-.socialLink{
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:15%;
+  }
+.footerrow{
     margin-bottom: 10px;
     margin-left: 10px;  
-    float: right;
+    height: 10%;
     position: fixed;
     right: 3%;
+    overflow: hidden;
+    display: inline-block;
+    
 }
-
+.icon-container{
+    list-style-type: none;
+}
+.icon-container li{
+    display: inline-block;
+    margin: 0px;;
+}
 ul{
     list-style-type: none;
 }
-.icons{
-    list-style-type: none;
+ul .icons{
+    
     font-size: 40px;
-    margin: 10px 30px;
+    margin: 0px;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     color: #80809e;
     transition: .5s;
-    margin-bottom: 10px;
-    
-    
 }
 
 .contactForm{
@@ -185,7 +200,7 @@ ul{
 
 .container{
     position: relative;
-    width: 40%;
+    width: 25%;
 }
 .image {
     opacity: 1;
@@ -217,8 +232,8 @@ ul{
 .caption {
     
     color: grey;
-    font-size: 16px;
-    padding: 8px 8px;
+    font-size: 10px;
+    padding: 3px 3px;
   }
 
 
