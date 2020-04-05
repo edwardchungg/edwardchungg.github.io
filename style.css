@@ -22,7 +22,7 @@ h1{
     
 }
 .name:hover{
-    color: #72b8d4;
+    color: #99999e;
     
     transition: .5s;
 
@@ -83,7 +83,7 @@ nav {
 	text-decoration: none;
 }
 .nav-link:hover{
-    color: #72b8d4;
+    color: #99999e;
     
     transition: .5s;
 
@@ -106,7 +106,7 @@ main{
 .content{
     animation: drop 1.5s ease;
     padding-top: 52px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 20px;
     flex-grow: 1;   
     overflow: hidden;
@@ -185,7 +185,7 @@ ul .icons{
     color: white;
     outline-color: white;
     transition: .5s;
-    background-color: #72b8d4;
+    background-color: #99999e;
 
 }
 
@@ -193,7 +193,7 @@ ul .icons{
 
 
 .icons:hover{
-    color: #72b8d4;
+    color: #99999e;
     
     transition: .25s;
 
