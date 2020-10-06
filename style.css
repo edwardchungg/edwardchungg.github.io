@@ -3,7 +3,10 @@
 	box-sizing: border-box;
 }
 p{
-    padding-right: 50px;
+    margin-top: 5px;
+	font-size: 18px;;
+    color: #80809e;
+    text-align: center; 
 }
 a {
     text-decoration: none;
@@ -106,18 +109,14 @@ main{
 .content{
     animation: drop 1.5s ease;
     padding-top: 52px;
-    margin-left: 8%;
+    margin: auto;
     margin-top: 20px;
     flex-grow: 1;   
     overflow: hidden;
     width: 70%;
 }
 
-p {
-    margin-top: 5px;
-	font-size: 18px;;
-    color: #80809e;
-}
+
 .footer {
     position: fixed;
     left: 0;
@@ -144,6 +143,7 @@ p {
 }
 ul{
     list-style-type: none;
+    text-align:center;
 }
 ul .icons{
     
