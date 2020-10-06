@@ -51,7 +51,7 @@ button {
 
 .secondBlock {
 	display: flex;
-	width: 90%;
+	width: 70%;
 	height: 10vh;
 	margin: auto;
 	align-items: center;
@@ -110,6 +110,7 @@ main{
     margin-top: 20px;
     flex-grow: 1;   
     overflow: hidden;
+    width: 70%;
 }
 
 p {
