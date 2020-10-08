@@ -270,7 +270,7 @@ ul .icons{
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 650px) {
 	.presentation {
 		flex-direction: column;
 	}
@@ -281,9 +281,7 @@ ul .icons{
 	h1 {
 		font-size: 30px;
 	}
-	p {
-		font-size: 18px;
-	}
+	
 	.cta {
 		padding: 10px 0px 0px 0px;
     }
