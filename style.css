@@ -258,7 +258,9 @@ ul .icons{
     margin-right:auto;
 }
 
-
+.project{
+    margin: 3em;
+}
 @keyframes drop {
 	0% {
 		opacity: 0;
