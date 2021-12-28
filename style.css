@@ -156,6 +156,11 @@ ul .icons{
     transition: .5s;
 }
 
+li {
+    padding: 5px;
+    color: #80809e;
+}
+
 .contactForm{
     padding: 20px 0;
     max-width: 800px;
